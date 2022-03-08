@@ -7,7 +7,7 @@ import torch.nn as nn
 from ...ops import segment_mm, gather_mm
 
 __all__ = ['TypedLinear']
-
+# useful new_class
 class TypedLinear(nn.Module):
     r"""Linear transformation according to types.
 
